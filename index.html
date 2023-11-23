@@ -7,30 +7,30 @@
     <title>Musicofy login</title>
     <link rel="stylesheet" href="./assets/style/reset.css">
     <link rel="stylesheet" href="./assets/style/style.css">
-
+    <link rel="stylesheet" href="./assets/style/animations.css">
 </head>
 
-<body style="background-image: url(img/neon-green-music-notes-eloz08thhwuc7opf.jpg);">
+<body>
     <div class="maincontainer">
         <div class="Titolo">
-            <h1
-                style="color: white; font-size: 72px; font-family: Verdana, Geneva, Tahoma, sans-serif; letter-spacing: 3px; text-shadow: 0 0 35px rgba(255, 255, 255, 0.75);padding-top: 30px;">
+            <h1>
                 Musicofy
             </h1>
-            <p style="color: white; font-family: 'Times New Roman', Times, serif;">
+            <p>
                 Spotify nun te temo
             </p>
         </div>
         <div class="login">
             <form onsubmit="alert('Registrazione inviata!')">
-                <h4 style="text-align: left; padding-left: 20px;">
+                <h4>
                     Registrazione
                 </h4>
                 <table>
                     <tr>
                         <td>
                             <div class="mainForm">
-                                Nome <input type="text" id=nome placeholder="Inserisci il tuo nome.." />
+                                <label for="nome">Nome</label><input type="text" id=nome
+                                    placeholder="Inserisci il tuo nome.." />
                                 Cognome <input type="text" id="cognome" placeholder="Inserisci il tuo cognome.." />
                                 e-Mail <input type="email" id="email" placeholder="Inserisci la tua email.." />
                                 Password <input type="password" id="password"

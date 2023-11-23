@@ -1,0 +1,44 @@
+@keyframes pulse1 {
+    0% {
+        text-shadow: 0 0 35px rgb(255, 255, 255);
+    }
+
+    50% {
+        text-shadow: 0 0 50px rgba(255, 255, 255, 0.9);
+    }
+
+    100% {
+        text-shadow: 0 0 35px rgb(255, 255, 255);
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        text-shadow: 0 0 35px rgb(255, 255, 255, 0.7);
+        transform: scale(1);
+    }
+
+    50% {
+        text-shadow: 0 0 50px rgba(255, 255, 255, 1);
+        transform: scale(1.2);
+    }
+
+    100% {
+        text-shadow: 0 0 35px rgb(255, 255, 255, 0.7);
+        transform: scale(1);
+    }
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 100% 0;
+    }
+
+    50% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
+}

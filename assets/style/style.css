@@ -17,6 +17,24 @@ body {
     opacity: 0.8;
 }
 
+.Titolo h1 {
+    color: white;
+    font-size: 72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    text-shadow: 0 0 5px rgb(255, 255, 255, 0.9);
+    animation: pulse1 1s infinite;
+    margin: 0.3em;
+}
+
+.Titolo p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 0 5px rgb(255, 255, 255, 0.9);
+
+}
+
 .Titolo {
     flex: 1;
     background-color: black;
@@ -41,8 +59,8 @@ body {
     flex-direction: column;
 }
 
-.radiogeneri label {
-    display: block;
+.radiogeneri label:hover {
+    animation: pulse2 0.5s infinite;
 }
 
 .mainForm {
@@ -52,6 +70,15 @@ body {
     flex-direction: column;
 }
 
+.mainForm input:hover {
+    background: linear-gradient(to right, lemonchiffon, rgb(128, 233, 151));
+    animation: gradientAnimation 0.1s infinite;
+}
+
 .termsofservice {
     padding: 20px;
+}
+
+.termsofservice button:hover {
+    animation: pulse2 0.5s infinite;
 }
