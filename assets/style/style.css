@@ -1,0 +1,57 @@
+body {
+    background-image: url(../img/neon-green-music-notes-eloz08thhwuc7opf.jpg);
+}
+
+.maincontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 45px;
+    opacity: 0.8;
+}
+
+.Titolo {
+    flex: 1;
+    background-color: black;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    text-align: center;
+}
+
+.login {
+    flex: 1;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.radiogeneri {
+    padding-left: 150px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.radiogeneri label {
+    display: block;
+}
+
+.mainForm {
+    padding-left: 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.termsofservice {
+    padding: 20px;
+}
